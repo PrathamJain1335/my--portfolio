@@ -7,8 +7,8 @@ function Projects() {
           <strong>Portfolio Site</strong> <br />
           <span>
             My personal website built with React and Vite.{' '}
-            <a href="https://your-portfolio-link.com" target="_blank" rel="noopener noreferrer">View Live</a> |{' '}
-            <a href="https://github.com/your-username/portfolio" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://earnest-zuccutto-39b05d.netlify.app/" target="_blank" rel="noopener noreferrer">View Live</a> |{' '}
+            <a href="https://github.com/PrathamJain1335/my--portfolio" target="_blank" rel="noopener noreferrer">Code</a>
           </span>
         </li>
         <li>
