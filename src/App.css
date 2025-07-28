@@ -213,3 +213,35 @@ li {
   font-weight: 700;
 }
 
+/* Animated Gradient Background for entire app */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Background animation container */
+#app-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: linear-gradient(-45deg, #ffffff, #5c7197, #000000, #00040c);
+  background-size: 400% 400%;
+  animation: gradientBG 7s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
