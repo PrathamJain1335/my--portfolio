@@ -16,7 +16,7 @@ function Contact() {
     <section id="contact" ref={contactRef}>
       <h2>Contact</h2>
       <p>
-        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+        Email: <a href="mailto:prathamjain1335@gmail.com">prathamjain1335@gmail.com</a>
       </p>
     </section>
   );
